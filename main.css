@@ -6,7 +6,6 @@ body {
     background: #17191C;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
 }
 
 a {
@@ -43,10 +42,10 @@ p {
 .container {
     margin: 0 auto;
     width: 1142px;
-    margin-top: 26px;
 }
 
 .header {
+    top: 26px;
     height: 129px;
     position: relative;
     margin-bottom: 106px;
@@ -68,11 +67,14 @@ p {
 .menu__item {
     display: inline-block;
     vertical-align: middle;
+    margin-right: 54px;
+}
+.menu__item:last-child {
+    margin-right: 0px;
 }
 
 .menu__link {
     font-size: 14px;
-    margin-right: 54px;
     text-decoration: none;
 }
 
@@ -85,6 +87,7 @@ p {
     font-style: normal;
     top: 5.64px;
     right: 0px;
+    text-align: right;
 }
 
 .contacts__phone {
@@ -94,8 +97,6 @@ p {
 .contacts__info {
     font-size: 13px;
     text-decoration: underline;
-    right: 0px;
-    position: absolute;
 }
 
 .contacts__info:hover {
@@ -104,13 +105,12 @@ p {
 
 
 .main {
-    width: 776px;
-    text-align: center;
-    margin: 0 auto;
     margin-bottom: 233px;
-    position: relative;
 }
 .main__title {
+    margin: 0px auto;
+    width: 776px;
+    text-align: center;
     font-size: 72px;
     font-weight: bold;
     line-height: 98.05px;
@@ -119,19 +119,14 @@ p {
 }
 
 .main__text {    
+    text-align: center;
     font-size: 18px;
     margin-bottom: 43.5px;
-    position: absolute;
-    left: 192px;
-    top: 214.5px;
 }
 
 .main__button {
-    position: absolute;
-    left: 291px;
-    top: 278px;
+    text-align: center; /*другой способ*/
 }
-
 
 .btn {
     font-weight: bold;
@@ -140,6 +135,7 @@ p {
     padding: 18px 54px;
     border-radius: 35px;
     text-decoration: none;
+    display: inline-block;
 }
   
 .btn--orange {
@@ -162,14 +158,24 @@ p {
    background: #FF5500;
    color: #fff;
 }
-  
+
+.btn--orange-about {
+    padding: 18px 40px;
+    width: 168px;
+    color: #fff;
+    background: #FF5500;
+}
+
+.btn--orange-about:hover {
+    background: #FF3D00;
+}
+
 .offers {
     margin-bottom: 28px;
 }
   
 .offers__list {
-    font-size: 0;
-    display: flex;
+    display: inline-block;
     margin-bottom: 140px;
 }
   
@@ -179,8 +185,12 @@ p {
     background: #fff;
     border-radius: 5px;
     width: 362px;
-    margin-right: 27px;
+    margin-right: 23px;
     display: inline-block;
+}
+
+.offers__item:last-child {
+    margin-right: 0px;
 }
   
 .offers__img-wrapper {
@@ -189,19 +199,17 @@ p {
 }
   
 .offers__img {
-    min-height: 83px;
-    width: 84px;
     margin-bottom: 30px;
 }
   
 .offers__content {
     min-height: 296px;
-    display: inline;
 }
-  
+.offers__desc {
+    margin-bottom: 29px;
+}
 .offers__title {
     font-style: normal;
-    position: relative;
     font-weight: bold;
     font-size: 32px;
     color: #000000;
@@ -216,14 +224,6 @@ p {
     font-size: 16px;
 }
   
-.offers__desc-days {
-    height: 41px;
-}
-  
-.offers__desc-people {
-    height: 41px;
-    margin-right: 43px;
-}
   
 .offers__desc-number {
     color: #000;
@@ -234,9 +234,9 @@ p {
 .offers__text {
     font-size: 14px;
     color: #666666;
-    margin-bottom: 32px;
     line-height: 22px;
 }
+
 
 .news__title {
     font-weight: 800;
@@ -244,31 +244,31 @@ p {
     margin-bottom: 51px;
     text-transform: uppercase;
 }
-  
+.news {
+    margin-bottom: 124px;
+}
+
 .news__list {
     margin-bottom: 53px;
-    display: inline-flex;
 }
   
 .news__item {
-    min-height: 394px;
-    margin-right: 25px;
-    
+    margin-right: 23px;
+    width: 557px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
 }
   
 .news__item:last-child {
     margin-right: 0;
 }
   
-.knowledge {
-    position: relative;
-    overflow: hidden;
-}
-  
 .knowledge__pic {
     display: block;
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
     
 .knowledge__desc {
@@ -277,23 +277,22 @@ p {
     right: 0;
     bottom: 0;
     padding: 26px 30px;
-    min-height: 150px;
+    min-height: 179px;
 }
   
 .knowledge__dateeime {
     font-size: 14px;
-    margin-bottom: 10px;
 }
   
 .knowledge__title{
+    margin-top: 12.5px;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 .pagination {
-    margin-left: 382px;
-    margin-bottom: 124px;
+    text-align: center;
 }
   
 .pagination__info {
@@ -314,8 +313,9 @@ p {
     text-align: center;
 }
   
-.pagination__item--active .paginator__link {
+.pagination__item--active {
     background: #FF5500;
+    border-radius: 50%;
 }
   
 .pagination__link {
@@ -334,14 +334,6 @@ p {
     background: #FF5500;
 }
 
-.about__container {
-    overflow: hidden;
-    width: 1139px;
-    height: 552px;
-    margin: 0 auto;
-    margin-bottom: 53px;
-}
-
 .about__item::before {
     content: "";
     display: inline-block;
@@ -351,15 +343,22 @@ p {
     background: url("./img/cameraman.png") center center / cover no-repeat;
 }
 
+.about {
+    margin-bottom: 53px;
+}
 .about__content {
     display: inline-block;
     width: 785px;
-    height: 455px;
+    min-height: 455px;
     background: white;
     padding: 70px 202px 66px 81px;
     margin-left: -204px;
     margin-top: 97px;
     border-radius: 5px;
+}
+
+.about__content-text{
+    margin-bottom: 29px;
 }
 
 .about__title {
