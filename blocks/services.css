@@ -1,0 +1,45 @@
+.page-content {
+    background: white;
+    color:#303030;
+    padding: 94px 188px 88px;
+}
+
+.amentities__container {
+    margin: 0 auto;
+    width: 1168px
+}
+
+.service {
+    display: flex;
+    text-decoration: none;
+}
+
+.services__item {
+    margin-bottom: 43.5px;
+}
+
+.services__item:last-child {
+    margin-bottom: 58px;
+}
+
+.service__img {
+    width: 30%;
+    margin-right: 14.3%;
+}
+
+.service__content {
+    flex: 1;
+    padding-top: 11px;
+}
+
+.service__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 31.5px;
+    color: black;
+}
+
+.service__desc {
+    line-height: 27px;
+    margin-bottom: 33px;
+}

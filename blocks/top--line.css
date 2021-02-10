@@ -1,0 +1,17 @@
+.top--line {
+    background-image: #17191C url(./img/top-line.png) right 45% top no-repeat;
+    min-height: 416px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 21px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+}

@@ -1,0 +1,29 @@
+.menu {
+    padding-top: 9px;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 57px;
+}
+.menu__item:last-child {
+    margin-right: 0px;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+}
+
+.footer .menu {
+    padding-top: 14px;
+}
+
+.footer .menu__item  {
+    display: inline-block;
+    vertical-align: middle;
+}
