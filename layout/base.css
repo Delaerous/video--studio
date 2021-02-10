@@ -50,7 +50,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url(../../img/hero.png) center top no-repeat, url(../../img/bottom-pic.png) center bottom 306px no-repeat;
+    background: url(../img/hero.png) center top no-repeat, url(../img/bottom-pic.png) center bottom 306px no-repeat;
     overflow: hidden;
     min-width: 1200px;
     min-height: 100%;
