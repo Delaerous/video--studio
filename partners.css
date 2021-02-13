@@ -1,0 +1,38 @@
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 86px;
+    max-width: 1101px;
+}
+ 
+.partners__item {
+    width: 25%;
+    display: flex;
+    margin-bottom: 14px;
+}
+  
+.partners__item:nth-child(4n+1) {
+    justify-content: flex-start;
+}
+    
+.partners__item:nth-child(4n+4) {
+    justify-content: flex-end;
+}
+  
+  
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 209px;
+    height: 103px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+} 
+  
+.partners__link:hover {
+    filter: grayscale(0);
+}
+
+
+

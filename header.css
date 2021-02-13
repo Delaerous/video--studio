@@ -1,0 +1,20 @@
+.header__container {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 153px;
+    padding-top: 23px;
+    align-items: center;
+}
+
+
+.top--line .header {
+    margin-bottom: 123px;
+}
+
+.top-line .header {
+    margin-bottom: 121px;
+}

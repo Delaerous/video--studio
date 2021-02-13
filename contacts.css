@@ -1,0 +1,34 @@
+.contacts {
+    font-style: normal;
+    text-align: right;
+    padding-top: 6px;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+}
+.contacts__info {
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: -6px;
+}
+
+.contacts__info:hover {
+    color: #FF3D00;
+}
+
+.footer .contacts {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.footer .contacts__info {
+    right: 0px;
+    color: #9A9A9A;
+    font-size: 11px;
+    padding-top: -200px;
+}
