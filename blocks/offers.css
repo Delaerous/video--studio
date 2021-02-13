@@ -11,23 +11,32 @@
 }
   
 .offers__item {
-    min-height: 476px;
     width: calc(100% / 3 - 18px);
+    
 }
 
 .offer {
+    min-height: 476px;
+    overflow: hidden;
     font-size: 16px;
     background: #fff;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
 }
 
 .offer__img-wrapper {
     padding: 27px 21px 48px 25px;
 }
   
-.offer__img {
-    margin: 4px -2px 26px 8px;
+.offer__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__hide {
+    margin: 4px -2px 29px 8px;
 }
   
 
@@ -63,3 +72,12 @@
     line-height: 22px;
     margin-bottom: 29px;
 }
+
+
+.offer__btn {
+    display: flex;
+    margin-top: auto;
+    vertical-align: top;
+    justify-content: flex-start;
+}
+

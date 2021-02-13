@@ -7,6 +7,7 @@
 
 .pagination--amenities {
     color: black;
+    margin-left: 28px;
 }
   
 .pagination__info {
@@ -45,4 +46,11 @@
 
 .page-content .pagination__display {
     margin-right: 25px;
+}
+.page-content .pagination__link:hover {
+    color: white;
+}
+
+.page-content .pagination__item--active {
+    color: white;
 }

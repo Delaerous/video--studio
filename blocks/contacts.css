@@ -1,6 +1,7 @@
 .contacts {
     font-style: normal;
     text-align: right;
+    padding-top: 6px;
 }
 
 .contacts__phone {
@@ -10,6 +11,7 @@
 .contacts__info {
     font-size: 13px;
     text-decoration: underline;
+    margin-top: -6px;
 }
 
 .contacts__info:hover {

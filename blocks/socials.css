@@ -31,7 +31,7 @@
      content: "";
      position: absolute;
      width: 36px; height: 36px;
-     background: url(./img/telegram.png);
+     background: url(./../img/telegram.png);
  }
  
 .socials__item-tg .socials__link:hover {
@@ -47,7 +47,7 @@
      content: "";
      position: absolute;
      width: 36px; height: 36px;
-     background: url(./img/vk.png);
+     background: url(./../img/vk.png);
 }
 
 .socials__item-vk .socials__link:hover {
@@ -63,7 +63,7 @@
      content: "";
      position: absolute;
      width: 36px; height: 36px;
-     background: url(./img/f.png);
+     background: url(./../img/f.png);
 }
  
 .socials__item-facebook .socials__link:hover {
@@ -79,7 +79,7 @@
      content: "";
      position: absolute;
      width: 36px; height: 36px;
-     background: url(./img/in.png);
+     background: url(./../img/in.png);
 }
  
 .socials__item-inst .socials__link:hover {

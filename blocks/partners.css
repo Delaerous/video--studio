@@ -2,20 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 86px;
+    max-width: 1101px;
 }
  
 .partners__item {
     width: 25%;
     display: flex;
-    justify-content: center;
     margin-bottom: 14px;
 }
   
-.partners__item:nth-child(4n + 1) {
+.partners__item:nth-child(4n+1) {
     justify-content: flex-start;
 }
     
-.partners__item:nth-child(4n + 4) {
+.partners__item:nth-child(4n+4) {
     justify-content: flex-end;
 }
   
@@ -33,3 +33,6 @@
 .partners__link:hover {
     filter: grayscale(0);
 }
+
+
+

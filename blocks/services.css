@@ -1,17 +1,17 @@
 .page-content {
     background: white;
     color:#303030;
-    padding: 94px 188px 88px;
-}
-
-.amentities__container {
-    margin: 0 auto;
-    width: 1168px
+    padding: 94px 0px 88px;
 }
 
 .service {
     display: flex;
     text-decoration: none;
+}
+
+.service:hover .btn--white {
+    background: #FF3D00;
+    color: white;
 }
 
 .services__item {
@@ -24,7 +24,7 @@
 
 .service__img {
     width: 30%;
-    margin-right: 14.3%;
+    margin-right: 15.3%;
 }
 
 .service__content {

@@ -15,10 +15,9 @@
 }
   
 .news__item {
-    margin-right: 23px;
     vertical-align: top;
     position: relative;
-    flex: 1;
+    overflow: hidden;
 }
   
 .news__item:last-child {
@@ -36,6 +35,7 @@
     min-height: 179px;
     display: flex;
     flex-direction: column;
+    text-overflow: ellipsis;
 }
   
 .knowledge__dateeime {
