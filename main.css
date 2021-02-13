@@ -18,3 +18,78 @@
 @import url(./blocks/services.css);
 @import url(./blocks/inner-section.css);
 @import url(./blocks/partners.css);
+
+.rewiews {
+    column-count: 2;
+    column-gap: 27px;
+    margin-bottom: 70px;
+}
+.rewiew {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #F4F5F5;
+}
+
+.rewiew__item {
+    margin-bottom: 20px;
+}
+.rewiew__user::after {
+    content: url(./img/vk-blue\ 1.png);
+    height: 29px;
+}
+
+.avatar {
+    min-width: 142px;
+    min-width: 142px;
+    overflow: hidden;
+}
+.rewiew__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rewiew__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2E77A4;
+    margin-bottom: 11px;
+}
+
+.rewiew__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.rewiew__title {
+    font-size: 30px;
+    color: #202020;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.rewiew__text {
+    margin-bottom: 25px;
+}
+
+.rewiew__date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1A1B1E;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 20px 3px;
+    border-radius: 50px;
+    background: #E7E7E7;
+    text-align: center;
+}
+
+.tag--bg--scarlet {
+    background: #F2D4C9;
+}
