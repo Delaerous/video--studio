@@ -1,10 +1,15 @@
 .inner-section {
     background: #fff;
     color: #1A1B1E;
-    padding-top: 81px;
+    padding-top: 83px;
 }
   
 .inner-section--bg--grey {
+    background: #F4F5F5;
+}
+
+.inner-section--bg--grey--rewiews {
+    padding: 75px 0px 52px;
     background: #F4F5F5;
 }
   

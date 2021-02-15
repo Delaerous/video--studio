@@ -9,43 +9,14 @@
 }
 
 .news__list {
-    margin-bottom: 53px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
   
 .news__item {
-    vertical-align: top;
     position: relative;
     overflow: hidden;
 }
   
-.news__item:last-child {
-    margin-right: 0;
-}
-  
-.knowledge__pic {
-    display: block;
-}
-    
-.knowledge__desc {
-    position: absolute;
-    bottom: 0;
-    padding: 41px 33px 10px;
-    min-height: 179px;
-    display: flex;
-    flex-direction: column;
-    text-overflow: ellipsis;
-}
-  
-.knowledge__dateeime {
-    font-size: 14px;
-    margin-bottom: 14.5px;
-    
-}
-  
-.knowledge__title{
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
+ 

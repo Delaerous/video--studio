@@ -2,7 +2,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    margin-bottom: 174px;
+    margin-bottom: 179px;
 }
   
 .offers__list {
@@ -22,21 +22,22 @@
     background: #fff;
     border-radius: 5px;
     display: flex;
-    flex-direction: column;
 }
 
 .offer__img-wrapper {
-    padding: 27px 21px 48px 25px;
-}
-  
-.offer__content {
-    flex: 1;
+    padding: 27px 24px 48px 23px;
     display: flex;
     flex-direction: column;
 }
+  
+.offer__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
 .offer__hide {
-    margin: 4px -2px 29px 8px;
+    padding: 9px 0px 25px 0px;
 }
   
 
@@ -45,11 +46,11 @@
     font-weight: bold;
     font-size: 32px;
     color: #000000;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
 }
 
 .offer__desc {
-    margin-bottom: 25px;
+    margin-bottom: 23px;
     display: flex;
     justify-content: space-between;
 }
@@ -70,7 +71,6 @@
     font-size: 14px;
     color: #666666;
     line-height: 22px;
-    margin-bottom: 29px;
 }
 
 

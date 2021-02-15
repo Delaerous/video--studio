@@ -1,5 +1,5 @@
 .top-line {
-    background: #17191C url(./../img/top-line.png) right 45% top no-repeat;
+    background: #17191C url(./../img/backgrounds/top-line.png) right 49% top no-repeat;
     min-height: 416px;
     display: flex;
     flex-direction: column;
@@ -13,11 +13,12 @@
     line-height: 1;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 92px;
 }
 
-.top-line__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.page-title--rewiews {
+    margin-bottom: 100px;
+}
+
+.page-title--amenities {
+    margin-bottom: 99px;
 }

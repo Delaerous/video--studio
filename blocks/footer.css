@@ -4,7 +4,7 @@
 
 .footer-container__section {
     height: 129px;
-    margin-top: 7px;
+    margin-top: 4px;
 }
 
 .inner-footer__container {
@@ -24,6 +24,10 @@
 .footer__col {
     justify-content: space-between;
     display: flex;
+}
+
+.footer__logo {
+    margin-right: 130px;
 }
 
 .footer__col--align--right {

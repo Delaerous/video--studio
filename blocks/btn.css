@@ -6,6 +6,10 @@
     border-radius: 35px;
     text-decoration: none;
     display: inline-block;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
   
 .btn--orange {
@@ -15,6 +19,10 @@
   
 .btn--orange:hover {
     background: #FF3D00;
+}
+
+.btn--orange--welcome {
+    padding: 18px 59px;
 }
   
 .btn--white {
@@ -40,3 +48,12 @@
     background: #FF3D00;
 }
 
+.btn--grey {
+    background: #8E8E8E;
+    color: white;
+}
+
+.btn--grey:hover {
+    background: #2B2B2B;
+
+}
