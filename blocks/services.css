@@ -1,7 +1,7 @@
 .page-content {
     background: white;
     color:#303030;
-    padding: 94px 0px 88px;
+    padding: 94px 0px 85px;
 }
 
 .service {
@@ -19,7 +19,7 @@
 }
 
 .services__item:last-child {
-    margin-bottom: 58px;
+    margin-bottom: 63px;
 }
 
 .service__img {

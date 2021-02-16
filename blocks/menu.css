@@ -25,11 +25,9 @@
 }
 
 .footer .menu {
-    padding-top: 14px;
+    padding-top: 7px;
 }
 
 .footer .menu  {
     display: inline-block;
-    vertical-align: middle;
-    margin-right: 0px;
 }
