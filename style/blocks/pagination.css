@@ -45,11 +45,12 @@
 
 .page-content .pagination__display {
     margin-right: 25px;
+    line-height: 32px;
 }
 .page-content .pagination__link:hover {
-    color: white;
+    color: #FFFFFF;
 }
 
 .page-content .pagination__item--active {
-    color: white;
+    color: #FFFFFF;
 }

@@ -1,10 +1,10 @@
 .menu {
-    padding-top: 17px;
+    padding-top: 22px;
 }
 
 .menu__item {
     display: inline-block;
-    margin-right: 57px;
+    margin-right: 50px;
 }
 .menu__item:last-child {
     margin-right: 0px;
@@ -25,9 +25,8 @@
 }
 
 .footer .menu {
-    padding-top: 7px;
+    padding-top: 18px;
+    display: inline-block;
+
 }
 
-.footer .menu  {
-    display: inline-block;
-}

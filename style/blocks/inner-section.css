@@ -1,7 +1,7 @@
 .inner-section {
     background: #fff;
     color: #1A1B1E;
-    padding-top: 83px;
+    padding-top: 87px;
 }
   
 .inner-section--bg--grey {
@@ -9,14 +9,14 @@
 }
 
 .inner-section--bg--grey--rewiews {
-    padding: 75px 0px 52px;
+    padding: 79px 0px 56px;
     background: #F4F5F5;
 }
   
 .inner-section__title {
     font-weight: 800;
     font-size: 36px;
-    margin-bottom: 64px;
+    margin-bottom: 60px;
     color: #202020;
 }
   

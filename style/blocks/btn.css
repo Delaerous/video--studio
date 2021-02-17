@@ -10,6 +10,7 @@
     border: none;
     cursor: pointer;
     transition: 0.5s;
+    outline: none;
 }
   
 .btn--orange {
@@ -40,7 +41,7 @@
 .btn--orange-about {
     padding: 18px 40px;
     width: 168px;
-    color: #fff;
+    color: #FFFFFF;
     background: #FF5500;
 }
 
@@ -50,7 +51,7 @@
 
 .btn--grey {
     background: #8E8E8E;
-    color: white;
+    color: #FFFFFF;
 }
 
 .btn--grey:hover {

@@ -1,79 +1,74 @@
+.social {
+  margin-right: 76px;
+  padding-top: 16px;
+}
 
-  
-.socials {
-     padding-bottom: 10px;
-     display: inline-flex;
+.social__list {
+  display: flex;
+}
+
+.social__item {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 0px;
 }
 
 
+.social__link:before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background-image: url(./../../img/socials/css_sprites\ \(2\).png);
+  opacity: 1;
+  transition: opacity 1s;
+}
 
-.socials__item {
-     position: relative;
-     margin-right: 7%;
-   }
-   
-   .socials__item:last-child {
-     margin-right: 0;
-   }
-   
-   .socials__link::before {
-     content: '';
-     display: block;
-     width: 36px;
-     height: 36px;
-     background: url(./../../img/socials/css_sprites\ \(2\).png);
-     transition: .3s;
-   }
-   
-   .socials__link::after {
-     content: '';
-     position: absolute;
-     top: 0;
-     display: block;
-     width: 36px;
-     height: 36px;
-     background: url(./../../img/socials/css_sprites\ \(2\).png);
-     opacity: 0;
-     transition: .3s;
-     filter: invert(1);
-   }
-   
-   .socials__link:hover:before {
-     opacity: 0;
-   }
-   
-   .socials__link:hover:after {
-     opacity: 1;
-   }
-   
-   .socials__item-tg .socials__link::before {
-     background-position: -10px -10px;
-   }
-   
-   .socials__item-tg .socials__link::after {
-     background-position: -10px -10px;
-   }
-   
-   .socials__item-vk .socials__link::before {
-     background-position: -66px -10px;
-   }
-   
-   .socials__item-vk .socials__link::after {
-     background-position: -66px -10px;
-   }
-   
-   .socials__item-facebook .socials__link::before {
-     background-position: 102px 158px;
-   }
-   
-   .socials__item-facebook .socials__link::after {
-     background-position: 102px 158px;
-   }
-   
-   .socials__item-inst .socials__link::before {
-     background-position: -66px -178px;
-   }
-   
-   .socials__item-inst .socials__link::after {
-     background-position: -66px -178px;
-   }
+ .social__link:after {
+  content: "";
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  background-image: url(./../../img/socials/css_sprites\ \(2\).png);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.social__link:hover:before {
+  opacity: 0;
+}
+.social__link:hover:after {
+  opacity: 1;
+  filter: invert(1);
+}
+
+.social__link-tg:before {
+  background-position: 102px -10px;
+}
+.social__link-tg:after {
+  background-position: 102px -10px;
+}
+.social__link-vk:before {
+  background-position: 46px 102px;
+}
+.social__link-vk:after {
+  background-position: 46px 102px;
+}
+
+.social__link-facebook:before {
+  background-position: -234px -66px;
+}
+.social__link-facebook:after {
+  background-position: -234px -66px;
+}
+
+.social__link-inst:before {
+  background-position: 47px 46px;
+}
+.social__link-inst:after {
+  background-position: 47px 46px;
+}
