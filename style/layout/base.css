@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 1.42;
     font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -45,8 +45,8 @@ p {
 }
 
 .img {
-    display: block;
-    max-width: 100%;
+    max-width: 100%; 
+    display:block;
 }
 
 .main-page-wrapper {
@@ -63,5 +63,3 @@ p {
     margin: 0 auto;
     width: 1142px;
 }
-
-

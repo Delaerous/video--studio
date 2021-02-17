@@ -147,6 +147,8 @@
   
   img {
     border-style: none;
+    max-width: 100%; 
+    display:block;
   }
   
   /* Forms
@@ -188,6 +190,9 @@
     text-transform: none;
   }
   
+  textarea {
+    resize:none
+}
   /**
    * Correct the inability to style clickable types in iOS and Safari.
    */
