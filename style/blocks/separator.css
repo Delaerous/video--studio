@@ -15,10 +15,13 @@
     font-size: 48px;
     font-weight: 700;
     color: #FFFFFF;
-    padding-top: 119px;
     min-width: 48%;
+    display: flex;
+    align-items: center;
+    
 }
 
-.sales-nuber {
-    color: #ff4500;
+
+.colortext {
+    color: #FF5500;
 }
