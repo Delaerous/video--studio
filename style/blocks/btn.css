@@ -9,7 +9,7 @@
     background: transparent;
     border: none;
     cursor: pointer;
-    
+    transition: 0.5s;
     outline: none;
 }
   
@@ -56,5 +56,4 @@
 
 .btn--grey:hover {
     background: #2B2B2B;
-
 }
