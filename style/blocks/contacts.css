@@ -46,7 +46,6 @@
     padding: 12px 18px;
     right: 99999px;
     opacity: 0;
-    transition: opacity .5s;
     position: absolute;
   }
   
@@ -70,6 +69,7 @@
     position: absolute;
     bottom: 100%;
     left: 96px;
+    transition: opacity .5s;
 }
   
 .contacts__dropdown-text {
