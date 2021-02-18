@@ -1,0 +1,27 @@
+.separator {
+    background: #373737 ;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+
+}
+
+.separator__content {
+    display: flex;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    min-width: 48%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.colortext {
+    color: #FF5500;
+}

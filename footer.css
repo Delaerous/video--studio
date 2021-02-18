@@ -1,0 +1,42 @@
+
+  
+  .footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 0;
+  }
+  
+  .footer__container--main {
+    padding: 38px 0 60px;
+    border-top: 1px solid rgba(255, 255, 255,0.1);
+  }
+.footer__container--rewiew {
+    padding: 33px 0 60px;
+    border-top: 1px solid rgba(255, 255, 255,0.1);
+}  
+  .footer-main__container:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0; 
+  }
+
+  .footer__container--amenities {
+    padding: 33px 0 60px;
+  }
+  
+  .footer__col {
+    display: inline-flex;
+  }
+  
+  
+  
+  
+  .contacts__footer-workhours {
+    font-size: 11px;
+    text-decoration: none;
+    color: #9A9A9A; 
+    text-align: right;
+  }
