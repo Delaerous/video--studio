@@ -1,20 +1,22 @@
 .separator {
-    background: #373737 url(../../img/backgrounds/party.png) right 20% bottom no-repeat;
+    background: #373737 ;
     min-height: 363px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    color: #202123;
+   justify-content: center;
+
 }
 
 .separator__content {
-    max-width: 49%;
+    display: flex;
 }
 
 .separator__title {
     font-size: 48px;
     font-weight: 700;
     color: #FFFFFF;
+    padding-top: 119px;
+    min-width: 48%;
 }
 
 .sales-nuber {

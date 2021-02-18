@@ -1,4 +1,3 @@
-
 .page-content-rewiews {
     padding: 94px 0px 84px;
 }
@@ -39,6 +38,7 @@
 } 
 .rewiew__photo {
     margin-right: 21px;
+    min-width: 139px;
 }
 
 
@@ -80,10 +80,9 @@
 }
 
 .rewiew__tags {
-    overflow: hidden;
-    max-width: 217px;
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .rewiew__tag-item {

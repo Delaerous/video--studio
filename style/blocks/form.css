@@ -26,24 +26,27 @@ form {
     margin-right: 28px;
     min-height: 61px;
     line-height: 1.42;
+    border: 1px solid transparent;
+  outline: none;
 }
   
 
   
 .form__input::placeholder {
-    color: #666666;
+    
+    color:#666666;
 }
  
 .form__input:focus {
-    outline-color: #CCCCCC;
-  }
+    border: 1px solid #CCCCCC;
+}
 
 .form__input:last-child {
     margin-right: 0;
 }
 .form__input--textarea {
     height: 235px;
-    padding: 0px 28px;
+    padding: 25px 28px 0px;
     line-height: 2;
 }
   
